@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.clamp-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
