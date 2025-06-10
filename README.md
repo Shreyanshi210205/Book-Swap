@@ -1,12 +1,38 @@
-# React + Vite
+# 📚 BookSwap – Second-hand Book Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BookSwap is a responsive, modern web application that allows users to buy and sell second-hand books. Built using React and Tailwind CSS, it integrates Firebase for user authentication and real-time database management, along with Cloudinary for efficient image handling.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+🔗 [Visit BookSwap](https://book-swap-orpin.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Features
 
-## Expanding the ESLint configuration
+- 🔐 **Authentication**: Secure user login/signup using Firebase Auth.
+- 📚 **Book Listings**: Users can post books for sale with images and details.
+- 🔍 **Search & Filter**: Real-time search functionality for finding books.
+- 🧑‍💼 **User Dashboard**: Personalized dashboard to manage book listings.
+- 🖼️ **Image Upload**: Cloudinary integration for fast and optimized image delivery.
+- 📱 **Responsive Design**: Fully mobile-friendly UI built with Tailwind CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, HTML, Tailwind CSS
+- **Backend/Services**:
+  - **Firebase Auth** – User authentication
+  - **Firestore** – Realtime database for books & users
+  - **Cloudinary** – Image uploads and delivery
+- **Deployment**: Vercel
+
+
+## 🧰 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Shreyanshi210205/Book-Swap.git
+cd Book-Swap
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
